@@ -1,0 +1,9 @@
+DEPENDENCIES
+  elasticsearch_cookbook
+    git: https://github.com/chpoullet/eng53-elasticsearch-cookbook.git
+    revision: 0993dad44eb12aa1676d99de2b00f27c2fb3c450
+
+GRAPH
+  apt (7.2.0)
+  elasticsearch_cookbook (0.1.0)
+    apt (>= 0.0.0)
