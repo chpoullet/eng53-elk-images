@@ -26,13 +26,13 @@
 },
 "instance_type": "t2.small",
 "ssh_username": "ubuntu",
-"ami_name": "charlie-poullet-eng53-logstash-{{timestamp}}"
+"ami_name": "charlie-poullet-eng53-kibana-{{timestamp}}"
 }],
 "provisioners": [
 {
 "type": "chef-solo",
 "cookbook_paths": ["./cookbooks"],
-"run_list":["logstash_cookbook::default"]
+"run_list":["beats_cookbook::default", "kibana_cookbook::default"]
 }
 ]
 }
