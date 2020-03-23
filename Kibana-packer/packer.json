@@ -32,7 +32,7 @@
 {
 "type": "chef-solo",
 "cookbook_paths": ["./cookbooks"],
-"run_list":["beats_cookbook::default", "kibana_cookbook::default"]
+"run_list":["kibana_cookbook::default"]
 }
 ]
 }
