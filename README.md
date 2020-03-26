@@ -2,13 +2,13 @@
 
 This repository contains the configured Berksfile and packer.json files to create the images for the ELK stack.
 
-## To retrieve the cookbooks, run:
+### To retrieve the cookbooks, run:
 
 ```
 berks vendor cookbooks
 ```
 
-## To create the images, run in the specific directory:
+### To create the images, run in the specific directory:
 
 ```
 packer build packer.json
